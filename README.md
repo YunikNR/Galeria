@@ -1,2 +1,1 @@
-# Layouts
 # Galeria
