@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 70vh;
+    width: 50vw;
+    background-color: tomato;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img{
+    width: 75%;
+}
